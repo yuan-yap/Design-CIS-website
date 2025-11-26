@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learn - CIS Resources</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#135bec",
+            "background-light": "#f6f6f8",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Lexend", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-slate-200">
+  <div class="relative flex min-h-screen w-full flex-col group/design-root">
+    <!-- TopNavBar -->
+    <header class="sticky top-0 z-50 w-full border-b border-slate-200/80 dark:border-slate-800/80 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center h-16 w-full gap-4">
+          <div class="hidden md:flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="school_websote_homepage.html">Home</a>
+              <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="explore_programs.html">Explore</a>
+              <a class="text-sm font-bold leading-normal text-primary" href="learn_section.html">Learn</a>
+              <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="school_websote_homepage.html">Discover</a>
+              <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="join_our_school.html">Join</a>
+              <a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="community_hub.html">Community</a>
+            </div>
+            <div class="flex gap-2">
+              <a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded bg-green-800 text-white text-sm font-bold leading-normal tracking-[0.015em] h-10 px-4 hover:bg-green-900" href="join_our_school.html">Apply Now</a>
+              <a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded bg-slate-200 dark:bg-slate-800 text-[#0d121b] dark:text-white text-sm font-bold leading-normal tracking-[0.015em] h-10 px-4" href="#">Contact Us</a>
+            </div>
+          </div>
+          <div class="flex flex-1 md:flex-none justify-end">
+            <img alt="Cebu International School logo" class="h-16 w-auto object-contain ml-6" src="cis-logo.png"/>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="flex flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main class="flex-1 min-w-0">
+        <!-- CIS Resources -->
+        <section class="mt-4" id="cis-resources">
+          <div class="px-4 pb-3 pt-5">
+            <h2 class="text-2xl font-bold leading-tight tracking-[-0.015em]">CIS Learning Resources</h2>
+            <p class="text-slate-600 dark:text-slate-400 text-sm mt-1">Official content from cis.edu.ph, copied here for quick access.</p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="early_years.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Early Years Programme</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">Learning overview for Early Years at CIS.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="primary_years.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Primary Years</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">Primary Years Programme overview and philosophy.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="primary_years_communication.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Primary Years Communication</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">How CIS shares learning and progress.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="primary_years_curriculum.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Primary Years Curriculum</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">Curriculum details for the PYP.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="middle_years.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Middle Years</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">IB MYP framework for 11-16 year olds.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="diploma_programme.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Diploma Programme</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">Two-year IB DP at CIS.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="diploma_programme_curriculum.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">Diploma Curriculum</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">Subject groups and levels overview.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+            <a class="flex flex-col gap-3 pb-3 bg-white dark:bg-slate-900/50 rounded-lg border border-slate-200/80 dark:border-slate-800/80 overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1" href="twentyfirst_century_learning.html">
+              <div class="p-4 flex flex-col flex-grow gap-2">
+                <p class="text-base font-medium leading-normal">21st Century Learning</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-normal flex-grow">CIS approach to inquiry and modern skills.</p>
+                <span class="text-primary dark:text-primary/90 text-sm font-bold leading-normal mt-2">View Details</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- Footer -->
+    <footer class="mt-12 py-8 border-t border-slate-200/80 dark:border-slate-800/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-center md:text-left">
+          <h3 class="font-bold text-lg text-[#0d121b] dark:text-background-light">Cebu International School</h3>
+          <p class="text-sm text-slate-500 dark:text-slate-400">123 Learning Lane, Knowledge City, 12345</p>
+          <p class="text-sm text-slate-500 dark:text-slate-400">(123) 456-7890 | info@schoolname.edu</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

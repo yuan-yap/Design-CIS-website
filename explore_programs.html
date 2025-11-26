@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Explore - Northwood High</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#135bec",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+            },
+            fontFamily: {
+              "display": ["Lexend", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#0d121b] dark:text-white/90">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center px-4 sm:px-8 md:px-20 lg:px-40 py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- TopNavBar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-gray-200 dark:border-white/10 px-0 sm:px-10 py-3">
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#4c669a] dark:text-white/70 text-sm font-medium leading-normal hover:text-primary dark:hover:text-white transition-colors" href="school_websote_homepage.html">Home</a>
+<a class="text-primary dark:text-white text-sm font-bold leading-normal" href="explore_programs.html">Explore</a>
+<a class="text-[#4c669a] dark:text-white/70 text-sm font-medium leading-normal hover:text-primary dark:hover:text-white transition-colors" href="learn_section.html">Learn</a>
+<a class="text-[#4c669a] dark:text-white/70 text-sm font-medium leading-normal hover:text-primary dark:hover:text-white transition-colors" href="school_websote_homepage.html">Discover</a>
+<a class="text-[#4c669a] dark:text-white/70 text-sm font-medium leading-normal hover:text-primary dark:hover:text-white transition-colors" href="join_our_school.html">Join</a>
+<a class="text-[#4c669a] dark:text-white/70 text-sm font-medium leading-normal hover:text-primary dark:hover:text-white transition-colors" href="community_hub.html">Community</a>
+</div>
+<div class="flex gap-2">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-green-800 text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-green-900 transition-colors" href="join_our_school.html">Apply Now</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded h-10 px-4 bg-gray-200 dark:bg-white/10 text-[#0d121b] dark:text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-gray-300 dark:hover:bg-white/20 transition-colors" href="#">Contact Us</a>
+</div>
+</div>
+<div class="flex flex-1 md:flex-none justify-end">
+<img alt="Cebu International School logo" class="h-16 w-auto object-contain ml-6" src="cis-logo.png"/>
+</div>
+</header>
+<main class="flex-1">
+<!-- PageHeading -->
+<div class="flex flex-wrap justify-between gap-3 p-4 pt-12">
+<div class="flex min-w-72 flex-col gap-3">
+<p class="text-[#0d121b] dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">Explore Your Path at Northwood High</p>
+<p class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal">Discover a wide range of academic programs and extracurricular activities designed to help you succeed.</p>
+</div>
+</div>
+<!-- Chips -->
+<div class="flex gap-3 p-3 flex-wrap pr-4 mt-6">
+<div class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded bg-primary/20 dark:bg-primary/30 px-4 transition-colors">
+<p class="text-primary dark:text-white text-sm font-medium leading-normal">All</p>
+</div>
+<div class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded bg-gray-200 dark:bg-white/10 px-4 hover:bg-gray-300 dark:hover:bg-white/20 transition-colors">
+<p class="text-[#0d121b] dark:text-white/80 text-sm font-medium leading-normal">Academics</p>
+</div>
+<div class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded bg-gray-200 dark:bg-white/10 px-4 hover:bg-gray-300 dark:hover:bg-white/20 transition-colors">
+<p class="text-[#0d121b] dark:text-white/80 text-sm font-medium leading-normal">Arts</p>
+</div>
+<div class="flex h-8 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded bg-gray-200 dark:bg-white/10 px-4 hover:bg-gray-300 dark:hover:bg-white/20 transition-colors">
+<p class="text-[#0d121b] dark:text-white/80 text-sm font-medium leading-normal">Sports</p>
+</div>
+</div>
+<!-- ImageGrid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 mt-4">
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="Students working on robotics in a lab" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD84rsD8sxHHw5PDPo4TsAA_X1kWWgXUQ8_x9X0H2cTFDITDHwDNdEJtrfOzk6_mbJ3wq6OVOoCGYGs7E5kbWfXxP0WWyXYNPk2xBKNVT7XexOmcSOnw__usGshPgT7gnyy6y9pqcenkKx3Tol-0e7C0Ub7VF8x8OAmG5AqmFsCc2e-j9DTnNj0s6dcaQScr4acgAkaJxuz76ZCVMDXu8OF5zEZB3I8EliaDdI0formFCN0mRAxUPvV2PGxugCrWo0nBpMzFetSbRM');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">STEM Program</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Engage in hands-on science, technology, engineering, and mathematics.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="Student painting on a canvas in an art studio" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAkRhH80owD3WGDtm3q99EAdWK2-iCPzgZ5r-NpuaVAVmJL7SysN__z7T-PfacgBFBpGD9Q6LX0GOdgD3g8J2jCzvQRsQZO7D6T-T_QCWaopSuXSZN1K8nSMJAsrLMvPqMG_IwLcDrhSLtCfzvINGfn5w3IVndCMNitKncUGUKQg9JGda8N4FrUUr5_FwJpEJ3u8xEUEQLl-oT_f7gK3799tt4EUtePnczWK2dctukHTyuPQSsPIh9-5zz6hM4Shi0fV-eVw51q-YA');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Visual Arts</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Discover your creativity through painting, sculpture, and digital media.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="School soccer team playing a match on a green field" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDj1Uhk1F7vGMl-A1zPKlnSs0IudWSROdexmHCpauCEvTzYnHwpRJoKZmBZ5Y6nNiBX8tXZqaon-Y5jCw5d5sf6V6NVHug9_-iNdTQKoVTdYUV42kaqbYDXTne0wUZ94EWkI9F3t_7NuSFJtWF7zJqZUh-4l35wT6DcyZmkGDlkSx1B25GyZAgWhSiScTv9rAUrHnbTH2zju5HVZrMIdpi01f5uBwr-cai2JlffCkcf2kG_qAqoQ9I9pgojEWQDz-n8lBMNKHK-JTA');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Varsity Soccer</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Join our competitive team and develop your skills on and off the field.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="Students participating in a debate club meeting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcYPK0WBAKgHuOKrb5_5ZQ--e82z3NnyS35ZOOWrCBMrul7y-UJn8pKKBnbb1Ei-3lA8DDmbdqJE6W4-9Qpm8WM8o7O3dBRSifITaTsMh90CpdAIJUDCqXTKESqQc9mW-ZCd0kgjVNJygdH0mdeKarEo0nZnpx7PKMmy8EEnGsqI0w2EttIQa6fFcqD0hlD22j--JZav-0iNpfl20lwq80lBSkAqi76EsjndDyFQrfFujQGur87z_qG2_UMFy733JrdOjsRpsNm7o');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Debate Club</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Hone your public speaking and critical thinking abilities.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="School orchestra performing on stage" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBtdnJoI31vvl9EwXypOzzfK8U8HPWJ2C312JyGVOUwHpEEc17UkQgLxLjw9nHuCEKS-GBH4ljIv6gqv-406_EGms3dU1XQge9qvhrEDBRbX97EhItToewGlayDoSu1H9TnBliWIFWOsjkLlTDFP2azI2uCHT6DlJlD9eUfJgjVLK9H_7objDixuEdPpseugMkAM0ejMUuxGqfLRCJpDwqZGX2iWAjJ7stXhRvjHcoRPZVZVhwsf__pLysr4Sm5spKHHZPI2QRxGHQ');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Music &amp; Orchestra</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Express your musical talents with our various band and orchestra programs.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="Students in a chemistry lab with beakers and test tubes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuArvqbXo0xOTCKU6L5pFSVpO79CSzLqP9h_7rOxHZq7RUAago-Zh7bDY5XEYMAtyoZZfOFEVjeFU3l52qEFnZ6Quu_9I7sJBFBm4k15gWvu1MlfhOcAPYmlaXWmDDp5Hn55Cz9E4yF7Fs-TtQbA6Sw50-X1HinfxOnyXW3a30NbbdudrDL_0tdBipAMysHYGCClaUzzPUiMKDKxc5jtyeSOoK58E4gjGbIloGrKI1ddsuuQpnWkJ_HpWd3ilkjgK0giSfySWGwQ1P4');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Advanced Chemistry</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Dive deep into the molecular world with our advanced placement courses.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="School theater club performing a play on stage" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB141Afse63Lln8rnc85Kgd3ADyDQ8RrHeIJHke1dvGaUiYXmGj3hK2bHeC4wy5Uwavtp_k1SHKUmaGzqr9jMPimX6va7BC9_kuT4ujqjshjLGLbOQUWXPaFC2ia-OYBA5fi3IzTK07kbkYmwSc3pmBsMexoGg82w-K4vGvTj3byJY--78Dk7TernEEBpvvgNqRLdZZ8tvS85e1nDQHE6g-CEz2uuwiISJUNjTJqAZdvEJKAesFEkIQ76yfMcfuoi7JveddQKLQHBA');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Theater Arts</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Take the stage and explore the world of acting, directing, and production.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 border border-transparent hover:shadow-lg hover:border-gray-200 dark:hover:border-white/10 rounded transition-all duration-300">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-t" data-alt="Students volunteering in the community, planting trees" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBNnesuXqXHgBRP2R0LeSz6Zgi72MGCfhsffcOUcR2rF7BKrXWYwzRGQy1pWNtmZz4lMjULuUGBlaMyJtBK6B4NZDhK5d2O0IhH-8ko1ufN9_xVm4NDrHmClWBwNtYrWIlpkSCiF2Vun-903JU4ofLnKzeUc_EHM0giRR-QBOoI41vItOvWBwiTKG2_ifJNrab95NssPUU58K_tlg4w373DwEtDUCOIGsalN9CjRHQ4MFM2bm_RxFWxc5NnGMtVKN1lEqh5CFOmqeg');"></div>
+<div class="p-4 pt-0">
+<p class="text-[#0d121b] dark:text-white text-base font-medium leading-normal">Community Service</p>
+<p class="text-[#4c669a] dark:text-white/70 text-sm font-normal leading-normal mt-1">Make a difference and give back to the community through organized events.</p>
+<a class="text-primary dark:text-primary/90 text-sm font-medium leading-normal mt-3 inline-block hover:underline" href="#">Learn More</a>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="flex flex-col gap-6 px-5 py-16 text-center @container mt-12 border-t border-solid border-gray-200 dark:border-white/10">
+<div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-4 @[480px]:flex-row @[480px]:justify-around">
+<a class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-white transition-colors" href="#">Contact Us</a>
+<a class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal min-w-40 hover:text-primary dark:hover:text-white transition-colors" href="#">Accessibility</a>
+</div>
+<div class="flex flex-wrap justify-center gap-6 mt-4">
+<a class="text-[#4c669a] dark:text-white/70 hover:text-primary dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">alternate_email</span>
+</a>
+<a class="text-[#4c669a] dark:text-white/70 hover:text-primary dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">call</span>
+</a>
+<a class="text-[#4c669a] dark:text-white/70 hover:text-primary dark:hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined">location_on</span>
+</a>
+</div>
+<p class="text-[#4c669a] dark:text-white/70 text-base font-normal leading-normal mt-4">© 2024 Northwood High. All Rights Reserved.</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
